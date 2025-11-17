@@ -1,0 +1,30 @@
+Run at: 2025-09-18T08:58:40.775607Z
+Dataset: D:\Jushita\Projects\Amazon\dataset\crowd_simulation_bukitjalil_450k_NEW.xlsx
+
+=== entry_rush ===
+Evacuated: 1999/2000
+Recommendations:
+ - Hotspot at cell (59, 20) with peak 1746 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (19, 20) with peak 437 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (20, 20) with peak 426 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (18, 20) with peak 423 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (21, 20) with peak 422 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+
+=== mid_event_congestion ===
+Evacuated: 2000/2000
+Recommendations:
+ - Hotspot at cell (59, 20) with peak 1747 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (59, 10) with peak 252 people. Nearest gate: 7. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (37, 20) with peak 52 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (48, 20) with peak 52 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (50, 20) with peak 52 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+
+=== emergency_evacuation ===
+Evacuated: 2000/2000
+Recommendations:
+ - Hotspot at cell (59, 20) with peak 1747 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (59, 10) with peak 252 people. Nearest gate: 7. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (58, 20) with peak 45 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (49, 20) with peak 42 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+ - Hotspot at cell (57, 20) with peak 41 people. Nearest gate: 8. Recommendation: open adjacent gate or redirect ~15% of incoming flow to other gates.
+

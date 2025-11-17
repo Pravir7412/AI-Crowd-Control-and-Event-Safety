@@ -1,0 +1,54 @@
+project:
+  name: crowd_sim_project
+  output_dir: outputs
+  model_version_prefix: "2025-09-16"
+
+preprocessing:
+  time_buckets: [1, 5, 15]
+  fillna_num: -1
+  impute_strategy: median
+  categorical_encoding: target
+  min_obs_for_encoding: 10
+
+training:
+  arrival:
+    objective: regression
+    num_boost_round: 1000
+    early_stopping_rounds: 100
+    params:
+      learning_rate: 0.05
+      num_leaves: 64
+      max_depth: -1
+      objective: regression
+      metric: l2
+  risk:
+    objective: multiclass
+    num_classes: 5
+    num_boost_round: 1000
+    early_stopping_rounds: 100
+    params:
+      learning_rate: 0.05
+      num_leaves: 64
+      objective: multiclass
+      metric: multi_logloss
+  action:
+    objective: multiclass
+    num_classes: 8
+    num_boost_round: 1000
+    early_stopping_rounds: 100
+    params:
+      learning_rate: 0.05
+      num_leaves: 64
+      objective: multiclass
+      metric: multi_logloss
+
+serve:
+  risk_alert_threshold: 0.85
+  target_latency_ms: 200
+  redis_enabled: false
+  redis_url: "redis://localhost:6379/0"
+
+logging:
+  level: INFO
+  rotate_when: midnight
+  backup_count: 7

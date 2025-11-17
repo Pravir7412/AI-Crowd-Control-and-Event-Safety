@@ -1,0 +1,11 @@
+Transport_Mode,Route_ID,Arrival_Time,Estimated_Passengers,Capacity,Percent_Attending_Concert,Expected_Attendees,Nearest_Gate_Group,Impact_Window_min,Notes
+CharterBus,VIP_Shuttle_1,9/15/2025 18:50,132,60,0.95,125,Gates 41-46 (VIP),20,VIP shuttle
+CharterBus,VIP_Shuttle_2,9/15/2025 18:08,250,60,0.95,237,Gates 41-46 (VIP),20,VIP shuttle
+CharterBus,VIP_Shuttle_3,9/15/2025 18:50,255,60,0.95,242,Gates 41-46 (VIP),20,VIP shuttle
+CharterBus,VIP_Shuttle_4,9/15/2025 18:42,135,60,0.95,128,Gates 41-46 (VIP),20,VIP shuttle
+CharterBus,VIP_Shuttle_5,9/15/2025 18:01,160,60,0.95,152,Gates 41-46 (VIP),20,VIP shuttle
+CharterBus,VIP_Shuttle_6,9/15/2025 17:44,82,60,0.95,77,Gates 41-46 (VIP),20,VIP shuttle
+CharterBus,VIP_Shuttle_7,9/15/2025 17:52,162,60,0.95,153,Gates 41-46 (VIP),20,VIP shuttle
+CharterBus,VIP_Shuttle_8,9/15/2025 17:06,144,60,0.95,136,Gates 41-46 (VIP),20,VIP shuttle
+CharterBus,VIP_Shuttle_9,9/15/2025 17:50,255,60,0.95,242,Gates 41-46 (VIP),20,VIP shuttle
+CharterBus,VIP_Shuttle_10,9/15/2025 18:58,108,60,0.95,102,Gates 41-46 (VIP),20,VIP shuttle

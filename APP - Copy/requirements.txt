@@ -1,0 +1,7 @@
+openpyxl
+PyPDF2
+boto3
+fastapi
+uvicorn
+requests
+pandas

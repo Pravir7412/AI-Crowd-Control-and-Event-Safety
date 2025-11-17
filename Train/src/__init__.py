@@ -1,1 +1,0 @@
-# crowd_sim_project source package

@@ -1,4 +1,0 @@
-Person_ID,Time,Scenario_Type,Gate_ID,Seat_Zone,Transport_Mode,Transport_Arrival,Weather,Gate_Capacity,Expected_Arrivals,Actual_Arrivals,Queue_Length,Density,Hotspot_Label,Evacuation_Time,Recommended_Action,Archetype,Event_ID
-1,2025-09-01 09:00:00,concert,G1,zoneA,car,08:50,sunny,100,10,12,3,0.2,0,00:10,OpenExtraGate,visitor,E1
-2,2025-09-01 09:01:00,concert,G1,zoneA,car,08:55,sunny,100,8,9,2,0.18,0,00:09,OpenExtraGate,visitor,E1
-3,2025-09-01 09:02:00,concert,G2,zoneB,train,08:59,cloud,150,20,22,5,0.4,1,00:15,DivertToGate,visitor,E1
